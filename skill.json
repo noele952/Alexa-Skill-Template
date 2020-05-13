@@ -1,0 +1,27 @@
+{
+  "manifest": {
+    "publishingInformtaion": {
+      "locales": {
+        "en-US": {
+          "summary": "Add summary description here",
+          "examplePhrases": ["Alexa, open hello world", "hello"],
+          "name": "sample-template",
+          "description": "This is a sample template"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample testinginstructions",
+      "category": "[ADD CATEGORY FROM https://developer.amazon.com/docs/smapi/skill-manifest.html#category-enum]",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": ""
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
