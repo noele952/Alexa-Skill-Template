@@ -17,6 +17,6 @@
   "dependencies": {
     "ask-sdk": "^2.8.0",
     "ask-sdk-dynamodb-persistence-adapter": "^2.8.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
